@@ -248,7 +248,7 @@ main {
     font-size: 72px;
   }
 }
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
   main {
     padding-left: 0;
     padding-right: 0;
@@ -290,8 +290,8 @@ main {
     flex-wrap: wrap;
   }
   .clients img {
-    height: 20%;
-    width: auto;
+    height: auto;
+    width: 20%;
     margin-bottom: 20px;
   }
   .clients img:not(:last-child) {
