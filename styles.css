@@ -231,12 +231,10 @@ main {
   display: flex;
   margin-top: 100px;
   align-items: center;
+  justify-content: space-between;
 }
 .clients img {
   height: 100%;
-}
-.clients img:not(:last-child) {
-  margin-right: 40px;
 }
 
 .hero-right {
@@ -252,6 +250,7 @@ main {
   main {
     padding-left: 0;
     padding-right: 0;
+    margin: 24px auto 50px auto;
   }
   .hero {
     display: flex;
@@ -271,8 +270,6 @@ main {
     margin-top: 50px;
   }
   .hero-left p {
-    padding-left: calc(8px + 1.5625vw);
-    padding-right: calc(8px + 1.5625vw);
     margin: 20px auto 50px auto;
   }
   .hero-right {
@@ -287,14 +284,10 @@ main {
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
-    flex-wrap: wrap;
+    margin-top: 70px;
   }
   .clients img {
     height: auto;
-    width: 20%;
-    margin-bottom: 20px;
-  }
-  .clients img:not(:last-child) {
-    margin-right: 5px;
+    max-width: 20%;
   }
 }/*# sourceMappingURL=styles.css.map */

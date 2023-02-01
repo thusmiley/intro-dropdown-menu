@@ -180,10 +180,9 @@ main
     display: flex
     margin-top: 100px
     align-items: center
+    justify-content: space-between
     img
         height: 100%
-    img:not(:last-child)
-        margin-right: 40px
 .hero-right
     width: 44%        
 
@@ -194,6 +193,8 @@ main
     main
         padding-left: 0
         padding-right: 0
+        margin: 24px auto 50px auto
+
     .hero
         display: flex
         flex-direction: column-reverse
@@ -211,8 +212,6 @@ main
             margin-top: 50px
              
         p
-            padding-left: calc(8px + 1.5625vw)
-            padding-right: calc(8px + 1.5625vw)  
             margin: 20px auto 50px auto
     .hero-right
         width: 100%
@@ -224,10 +223,7 @@ main
         justify-content: space-between
         padding-left: 20px
         padding-right: 20px
-        flex-wrap: wrap     
+        margin-top: 70px   
         img
             height: auto
-            width: 20%
-            margin-bottom: 20px
-        img:not(:last-child)
-            margin-right: 5px
+            max-width: 20%
